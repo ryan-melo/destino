@@ -78,3 +78,14 @@ footer {
     bottom: 0px;
     border-top: 1px solid gray;
 }
+
+
+@media (max-width: 500px) {
+    #container {
+        margin-top: 10px;
+    }
+
+    footer p {
+        font-size: .6em;
+    }
+}
