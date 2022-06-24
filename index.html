@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destino</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./cristal-ball.svg" type="image/x-icon">
+</head>
+<body>
+    <div id="container">
+    <img src="cristal-ball.svg" alt="">
+    <h1>Vou revelar seu destino!</h1>
+    <p>Clique em "fazer pergunta" para que seu destino seja revelado.</p>
+    <input type="text" id="inputPergunta" onkeyup="fazerPerguntaEnter(event)" placeholder="Digite sua pergunta">
+    <button onclick="fazerPergunta()">Fazer Pergunta</button>
+
+    <h3 id="resposta"></h3>
+    </div>
+
+    <footer>
+        <p>Desenvolvido com <span>❤️️</span> por Ryan Melo</p>
+        <p>Projeto inspirado na Maratona Explorer.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
